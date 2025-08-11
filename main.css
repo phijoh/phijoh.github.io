@@ -1,3 +1,4 @@
+
 html {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: larger;
@@ -20,7 +21,7 @@ a:hover {
 #content {
     position: relative;
     text-align: center;
-    max-width: 540px;
+    max-width: 640px;
     width: 100%;
     margin: 0 auto 0 auto;
     display: flex;
@@ -88,13 +89,54 @@ a:hover {
     font-weight: 600;
     color: #005c14;
     transition: background 0.2s, color 0.2s, box-shadow 0.2s;
-    box-shadow: 0 2px 8px rgba(21,101,192,0.04);
     text-decoration: none;
 }
 
 .navigation-title:hover {
-    background: #e3f2fd;
-    color: #217ee7;
-    box-shadow: 0 4px 16px rgba(21,101,192,0.10);
+    background: #eef7eb;
+    color: #478e91;
+    box-shadow: 0 4px 16px rgba(21, 192, 21, 0.1);
     text-decoration: none;
+}
+
+.news-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+.news-list li {
+  padding-left: 100px;
+  text-indent: -90px;
+  margin-bottom: 0.8em;
+  min-height: 1.5em;
+}
+.news-list strong {
+  display: inline-block;
+  width: 90px;
+  font-weight: 600;
+}
+
+
+.paper-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+  max-width: 1080px;
+}
+
+.author-bold {
+  font-weight: 600;
+}
+.paper-list li {
+  list-style-type: disc;
+  padding-left: 32px;
+  text-indent: -34px;
+  margin-bottom: 0.8em;
+  min-height: 1.5em;
+}
+.paper-year {
+  font-weight: 550;
+  font-size: 1em;
+  display: block;
+  margin: 1.2em 0 0em 0;
 }
