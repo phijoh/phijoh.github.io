@@ -128,14 +128,14 @@ a:hover {
   font-weight: 600;
 }
 .paper-list li {
-  list-style-type: disc;
+  list-style-type: none;
   padding-left: 32px;
   text-indent: -34px;
   margin-bottom: 0.8em;
   min-height: 1.5em;
 }
 .paper-year {
-  font-weight: 550;
+  font-weight: 600;
   font-size: 1em;
   display: block;
   margin: 1.2em 0 0em 0;
